@@ -12,11 +12,11 @@ self.addEventListener('push', function(e) {
           icon: 'images/checkmark.png'},
         {action: 'close', title: 'Close',
           icon: 'images/xmark.png'},
-          
+
       ]
     };
     e.waitUntil(
-      self.registration.showNotification('All Queues OK!', options)
+      self.registration.showNotification('All Queues OK!!', options)
     );
   });
   
