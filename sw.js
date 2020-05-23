@@ -8,7 +8,7 @@ self.addEventListener('push', function(e) {
         primaryKey: '2'
       },
       actions: [
-        {action: '', title: 'd',
+        {action: '', title: '',
           icon: 'images/checkmark.png'},
         {action: 'close', title: 'Close',
           icon: 'images/xmark.png'},
