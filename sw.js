@@ -12,6 +12,7 @@ self.addEventListener('push', function(e) {
           icon: 'images/checkmark.png'},
         {action: 'close', title: 'Close',
           icon: 'images/xmark.png'},
+          
       ]
     };
     e.waitUntil(
