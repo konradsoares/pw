@@ -16,7 +16,7 @@ self.addEventListener('push', function(e) {
       ]
     };
     e.waitUntil(
-      self.registration.showNotification('All Queues OK!!', options)
+      self.registration.showNotification('Fica esperto, que a fila vai estourar!!!', options)
     );
   });
   
